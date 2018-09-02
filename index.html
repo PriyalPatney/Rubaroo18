@@ -1,4 +1,4 @@
-!<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -6,20 +6,44 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/landing.css" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/timer.css">
     <script src="js/main.js"></script>
+    <script src="js/timer.js"></script>
 </head>
 <body>
-    <div class = "nav">
-        <div class = "nav_content">
-            <div class = "links">
-                <span class="link">Home</span>
-                <span class="link">Events</span>
-                <span class="link">About</span>
-                <span class="link">Enquiry</span>
-                <span class="link">Registration</span>
-                <span class="link">FAQ</span>
-            </div>
-        </div>
-    </div>
+        <div class="grid-container">
+                <div class="grid-item">
+                    <div class="rubaroologo">
+                        <img src="assets/Rubaroo.png">
+                    </div>
+                </div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>  
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>  
+                <div class="grid-item">
+                        <div class="social">
+                                <div class="sociallinks">
+                                    <a href="http://www.facebook.com/srmrubaroo" target="_blank"><i class="fa fa-facebook" aria-hidden="true" style=" color:rgb(59,89,152)"></i></a>
+                                    <a href="http://www.instagram.com/rubaroo_srm" target="_blank"><i class="fa fa-instagram" aria-hidden="true" style="color:#e4405f"></i></a>
+                                </div>
+                            </div>
+                </div>
+                <div class="grid-item"></div>
+                <div class="grid-item">
+                        <div class="timer">
+                                <p id = "demo"></p>
+                                <div class = "container_time">
+                                <p class = "hours"></p>
+                                <p id = "seconds"></p>
+                                </div>
+                            </div>
+                </div>  
+              </div>
+
 </body>
 </html>

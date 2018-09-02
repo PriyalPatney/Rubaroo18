@@ -1,0 +1,37 @@
+.timer {
+    float:right;
+    clear: left;
+    bottom: 5%;
+    right: 8%;
+    position: absolute;
+}
+#demo {
+    color:white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin: 0; 
+    /* margin-left: 10%; */
+    font-size: 5rem;
+}
+
+.hours, #seconds {
+    margin: 0;
+    color: white;
+    /* margin-left: 10%; */
+    font-size: 2rem;
+}
+
+#seconds{
+    color: #f24938;
+    margin: 0;
+    font-weight: bolder;
+    /* margin-left: 15px; */
+}
+
+/* .container_time{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+} */

@@ -1,0 +1,52 @@
+body {
+    background-image: url(../assets/red.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    /* min-width: 100%;
+    min-height: 100%; */
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+
+.sociallinks{
+font-size: 40px;
+display: flex;
+flex-direction: column;
+margin-right: 10px;
+}
+.social {
+    margin-left: 30px;
+    text-align: left;
+    float: left;
+    clear: right;
+    bottom: 10%;
+    left: 0;
+    position: absolute;
+}
+.grid-container {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* background-color: #2196F3; */
+    /* padding: 10px; */
+  }
+  .grid-item {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    /* padding: 20px; */
+    font-size: 40px;
+    /* text-align: center; */
+  }
+
+ .grid-container .rubaroologo img {
+     padding: 0;
+     margin: 0;
+     clear: right;
+     float: left;
+      width: 120px;
+      height: 120px;
+  }
