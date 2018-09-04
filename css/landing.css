@@ -112,19 +112,19 @@ margin-right: 10px;
           color: #7e0fff;
         }
       }
-      html,
+      /* html,
 body {
   margin: 0 auto;
   height: 100%;
-}
+} */
 
-body {
+/* body {
   display: flex;
   align-items: center;
   font-family: monospace;
   justify-content: center;
   background-color: #1d212b;
-}
+} */
 
 .main{
     background: url(assets\io.jpg);
